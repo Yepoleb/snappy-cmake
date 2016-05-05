@@ -1,12 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 PROJECT(snappy)
 
-# version 
-set(SNAPPY_MAJOR 1)
-set(SNAPPY_MINOR 1)
-set(SNAPPY_PATCHLEVEL 3)
-
-
 set(SRCS 
     snappy.cc
     snappy-sinksource.cc
